@@ -6,9 +6,9 @@ const Education = () => (
             <div className="Education-item">
                 <h3>MIT</h3>
                 <p>aprendi muchas cosas</p>
-                </div>
             </div>
         </div>
+      </div>
 );
 
 export default Education;
