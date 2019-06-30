@@ -1,12 +1,12 @@
 import React from 'react';
-import Main from '../components/Main';
-import Sidebar from '../components/Sidebar';
-import Info from '../components/Info';
-import About from '../components/About';
-import Education from '../components/Education';
-import Experience from '../components/Experience';
-import Certificates from '../components/Certificates';
-import Skills from '../components/Skills';
+import Main from '../components/Main.jsx';
+import Sidebar from '../components/Sidebar.jsx';
+import Info from '../components/Info.jsx';
+import About from '../components/About.jsx';
+import Education from '../components/Education.jsx';
+import Experience from '../components/Experience.jsx';
+import Certificates from '../components/Certificates.jsx';
+import Skills from '../components/Skills.jsx';
 
 const App = () => {
     return (
@@ -22,6 +22,6 @@ const App = () => {
         </info>
       </Main>
     );
-}
+};
 
 export default App;

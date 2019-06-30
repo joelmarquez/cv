@@ -10,7 +10,7 @@ const About = () => (
         <div className="About-name">
             <h2>Joel Marquez</h2>
         </div>
-        <div className="About Profession">
+        <div className="About-profession">
             <h2>Ingeniero</h2>
         </div>
         <div className="About-desc">
