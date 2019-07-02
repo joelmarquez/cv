@@ -9,19 +9,19 @@ import Certificates from '../components/Certificates.jsx';
 import Skills from '../components/Skills.jsx';
 
 const App = () => {
-    return (
-      <Main>
-        <Sidebar>
-          <About/>
-        </Sidebar>
-        <info>
-          <Education/>
-          <Experience/>
-          <Certificates/>
-          <Skills/>
-        </info>
-      </Main>
-    );
+  return (
+    <Main>
+      <Sidebar>
+        <About />
+      </Sidebar>
+      <Info>
+        <Education />
+        <Experience />
+        <Certificates />
+        <Skills />
+      </Info>
+    </Main>
+  );
 };
 
 export default App;
