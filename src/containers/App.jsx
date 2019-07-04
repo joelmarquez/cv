@@ -7,8 +7,11 @@ import Education from '../components/Education.jsx';
 import Experience from '../components/Experience.jsx';
 import Certificates from '../components/Certificates.jsx';
 import Skills from '../components/Skills.jsx';
+import useGetData from '../hooks/useGetDara.js'
 
 const App = () => {
+  const data = useGetData();
+  console.log(data);
   return (
     <Main>
       <Sidebar>
