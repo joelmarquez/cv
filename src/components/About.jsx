@@ -74,8 +74,7 @@ const About = ({avatar, name, profession, bio, address, social}) => (
             <AboutLocation>{address}</AboutLocation>
         </div>
         <div className="About-social">
-            <Social social={social} />
-           
+            <Social social={social} />        
         </div>
     </AboutStyle>
 );
